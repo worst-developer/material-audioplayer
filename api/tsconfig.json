@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+      "outDir": "build/",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": false,
+      "target": "ES6",
+      "allowJs": true
+  },
+  "include": [
+      "src/**/*",
+      "utils/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "tasks",
+      "build",
+      "test"
+  ],
+  "filesGlob": [
+      "./**/*.ts",
+      "!./node_modules/**/*.ts"
+  ],
+  "files": [
+      ".d.ts"
+  ]
+}

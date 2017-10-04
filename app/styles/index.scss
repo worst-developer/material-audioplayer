@@ -1,0 +1,40 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.box-selectors {
+
+  height: 550px;
+  width: 550px;
+}
+
+.playerButtons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.smallButton {
+  margin-top: 24px !important;
+}
+
+.searchInput {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox {
+  padding: 20px 0 0 50px;
+}
+
+.toggle {
+  padding: 20px 0 0 50px;
+}
+
+.check-button {
+  margin-top: 20px; 
+}

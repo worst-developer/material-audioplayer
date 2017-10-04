@@ -1,0 +1,54 @@
+{
+  "name": "simple-back-end",
+  "version": "1.0.0",
+  "description": "back-end for tech task ",
+  "main": "app.js",
+  "scripts": {
+    "dev-server": "concurrently \"gulp\" \"nodemon build/App.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Yaroslav Pidmohylniy",
+    "email": "gtibmx11@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.4.0"
+  },
+  "license": "ISC",
+  "dependencies": { 
+    "chai": "^3.5.0",
+    "cors": "^2.8.3",
+    "concurrently": "^3.5.0",
+    "dotenv": "4.0.0",
+    "helmet": "3.6.1",
+    "kcors": "2.2.1",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-graphql": "0.7.1",
+    "koa-helmet": "3.2.0",
+    "koa-logger": "3.0.1",
+    "koa-router": "7.2.1",
+    "latest": "0.2.0",
+    "mocha": "^3.4.2",
+    "pino": "4.6.0",
+    "pm2": "^2.4.6",
+    "request": "^2.81.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "@types/kcors": "2.2.1",
+    "@types/koa": "2.0.39",
+    "@types/koa-bodyparser": "3.0.23",
+    "@types/koa-helmet": "3.1.0",
+    "@types/koa-logger": "2.0.2",
+    "@types/koa-router": "7.0.22",
+    "@types/node": "8.0.1",
+    "@types/pino": "4.7.0",
+    "gulp": "3.9.1",
+    "gulp-typescript": "3.1.7",
+    "nodemon": "1.11.0",
+    "require-dir": "0.3.2",
+    "tslint": "5.4.3",
+    "typescript": "2.3.4"
+  }
+}
