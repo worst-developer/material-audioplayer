@@ -171,9 +171,9 @@ export default class Audio extends Component {
         ) })
     const playButton = 
       <IconButton
-      iconStyle={ styles.mediumIcon }
-      style={ styles.medium }
-      onClick={ this.handlePlay }
+        iconStyle={ styles.mediumIcon }
+        style={ styles.medium }
+        onClick={ this.handlePlay }
       >
         <Play />
       </IconButton> 
@@ -181,7 +181,7 @@ export default class Audio extends Component {
     return (
       <div>
         {  this.props.isFetching === true ?
-        <div>
+        <div className='main' >
           <CircularProgress size={ 80 } thickness={ 5 } />
         </div> :
         <div className='main rollIn animated'>
