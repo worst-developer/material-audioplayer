@@ -27,7 +27,7 @@ this project includes such general technologies:
     * [components](./app/sources/components)
     * [containers](./app/sources/containers)
       * [App](./app/sources/containers/App)
-      * [AudioPlayer](./app/sources/containers/AudioPlayer)
+      * [HomePage](./app/sources/containers/HomePage)
     * [utils](./app/sources/utils)
       * [FetchApi.js](./app/sources/utils/FetchApi.js)
     * [reducer.js](./app/sources/reducer.js)

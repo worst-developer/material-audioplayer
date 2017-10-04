@@ -7,8 +7,7 @@ import { httpGet } from '../../utils/FetchApi';
 
 function* fetchAudios(action) {
    try {
-     const audioData = yield call(httpGet, 'http://localhost:5555/audio');
-     console.log(audioData)
+     const audioData = yield call(httpGet, 'http://ec2-35-167-165-150.us-west-2.compute.amazonaws.com:5555/audio')
      yield put({ type: AUDIO_SUCCESS, audio: audioData.data });
    } catch (error) {
      yield put({ type: AUDIO_FAIL, response: error.response.data });
